@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Long Crystal LLC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            200: '#bfdbfe',
+                            300: '#93c5fd',
+                            400: '#60a5fa',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            800: '#1e3a5f',
+                            900: '#0f2744',
+                            950: '#091a2f',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-primary-950 text-gray-100 min-h-screen flex flex-col">
+    <nav class="bg-primary-900 border-b border-primary-800">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="index.html" class="text-xl font-bold text-white">Long Crystal LLC</a>
+            <div class="flex gap-6 text-sm">
+                <a href="index.html" class="text-primary-200 hover:text-white transition">Home</a>
+                <a href="about.html" class="text-primary-300 hover:text-white transition">About Us</a>
+                <a href="privacy.html" class="text-primary-300 hover:text-white transition">Privacy Policy</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="flex-1 flex items-center justify-center px-6">
+        <div class="max-w-2xl text-center py-20">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">Long Crystal LLC</h1>
+            <p class="text-lg text-primary-200 leading-relaxed mb-8">
+                We are a technology company focused on delivering thoughtful, high-quality solutions.
+                Our team combines deep technical expertise with a commitment to clarity and reliability.
+            </p>
+            <a href="about.html" class="inline-block bg-primary-700 hover:bg-primary-600 text-white px-6 py-3 rounded-lg transition font-medium">
+                Learn More About Us
+            </a>
+        </div>
+    </main>
+
+    <footer class="bg-primary-900 border-t border-primary-800 text-center text-sm text-primary-400 py-6">
+        <p>&copy; 2025 Long Crystal LLC. All rights reserved.</p>
+    </footer>
+</body>
+</html>

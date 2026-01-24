@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Long Crystal LLC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            200: '#bfdbfe',
+                            300: '#93c5fd',
+                            400: '#60a5fa',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            800: '#1e3a5f',
+                            900: '#0f2744',
+                            950: '#091a2f',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-primary-950 text-gray-100 min-h-screen flex flex-col">
+    <nav class="bg-primary-900 border-b border-primary-800">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="index.html" class="text-xl font-bold text-white">Long Crystal LLC</a>
+            <div class="flex gap-6 text-sm">
+                <a href="index.html" class="text-primary-300 hover:text-white transition">Home</a>
+                <a href="about.html" class="text-primary-200 hover:text-white transition">About Us</a>
+                <a href="privacy.html" class="text-primary-300 hover:text-white transition">Privacy Policy</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="flex-1 px-6 py-16">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-3xl md:text-4xl font-bold text-white mb-8">About Us</h1>
+
+            <div class="space-y-6 text-primary-200 leading-relaxed">
+                <p>
+                    Long Crystal LLC is a technology company dedicated to building reliable, well-crafted software solutions.
+                    We believe in taking the time to understand problems deeply before building solutions that last.
+                </p>
+
+                <h2 class="text-xl font-semibold text-white pt-4">Our Approach</h2>
+                <p>
+                    We prioritize quality and clarity in everything we do. Our work is guided by a focus on
+                    simplicity, maintainability, and delivering real value. We take a deliberate, thoughtful approach
+                    to every project we undertake.
+                </p>
+
+                <h2 class="text-xl font-semibold text-white pt-4">What We Do</h2>
+                <p>
+                    We provide technology consulting and software development services. Our expertise spans
+                    web applications, data systems, and custom software solutions tailored to our clients' needs.
+                </p>
+
+                <h2 class="text-xl font-semibold text-white pt-4">Get in Touch</h2>
+                <p>
+                    Interested in working with us? We'd love to hear from you. Reach out to discuss how we can
+                    help with your next project.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-primary-900 border-t border-primary-800 text-center text-sm text-primary-400 py-6">
+        <p>&copy; 2025 Long Crystal LLC. All rights reserved.</p>
+    </footer>
+</body>
+</html>
